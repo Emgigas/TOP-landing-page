@@ -2,13 +2,13 @@
 
 body {
     font-family: roboto, Arial;
+    margin: 0
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: #1F2937;
-    padding: 24px;
 }
 
 .logo {
@@ -32,7 +32,22 @@ ul {
     flex-direction: column;
 }
 
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+}
+
 .herotext {
     display: flex;
     flex-direction: column;
+    width: 400px;
+}
+
+.heromain  {
+    color:#F9FAF8;
+    font-size: 48px;
+    font-weight: bolder;
 }
