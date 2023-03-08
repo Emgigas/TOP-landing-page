@@ -1,14 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap'); 
 
 body {
-    font-family: roboto, Arial;
-    margin: 0
+    font-family: 'Roboto', Arial;
+    margin: 0;
 }
 
 .header {
     display: flex;
-    justify-content: space-around;
     background-color: #1F2937;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 200px;
+    padding-right: 200px;
+    height: 60px;
 }
 
 .logo {
@@ -36,18 +40,19 @@ ul {
     display: flex;
     background-color: #1F2937;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     gap: 32px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
 
-.herotext {
-    display: flex;
-    flex-direction: column;
-    width: 400px;
-}
-
-.heromain  {
-    color:#F9FAF8;
+h1 {
+    color: #F9FAF8;
     font-size: 48px;
     font-weight: bolder;
+}
+
+.herosecondary {
+    color: #E5E7EB;
+    font-size: 18px;
 }
