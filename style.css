@@ -8,9 +8,31 @@ body {
     display: flex;
     justify-content: space-between;
     background-color: #1F2937;
+    padding: 24px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    gap: 12px;
+    list-style: none;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+.herotext {
+    display: flex;
+    flex-direction: column;
 }
